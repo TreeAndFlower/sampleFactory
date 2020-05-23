@@ -10,6 +10,14 @@
 
 设计一个简单的计算器，可以进行加减乘除功能
 
+## 编译方式
+```javascript
+cd build
+cmake ..
+make
+```
+
+即可生成可执行文件sampleFactory
 
 ## 特别说明
 
