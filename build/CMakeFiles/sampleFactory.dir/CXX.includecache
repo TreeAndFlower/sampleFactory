@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muhan/myProject/sampleFactory/main.cpp
+stdio.h
+-
+string
+-
+iostream
+-
+sampleFactory.h
+/Users/muhan/myProject/sampleFactory/sampleFactory.h
+
+/Users/muhan/myProject/sampleFactory/sampleFactory.cpp
+sampleFactory.h
+/Users/muhan/myProject/sampleFactory/sampleFactory.h
+
+/Users/muhan/myProject/sampleFactory/sampleFactory.h
+stdio.h
+-
+string
+-
+
